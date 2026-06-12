@@ -9,3 +9,6 @@ build/
 out/
 bin/
 .vscode/
+__pycache__/
+*.pyc
+.env
