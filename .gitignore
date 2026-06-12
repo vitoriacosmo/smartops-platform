@@ -1,0 +1,11 @@
+*.msi
+*.exe
+*.jar
+HELP.md
+.gradle/
+build/
+.idea/
+.kotlin/
+out/
+bin/
+.vscode/
