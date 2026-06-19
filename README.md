@@ -29,14 +29,6 @@ ai-insights-service
 | analytics-service | Python + FastAPI | Cálculo de métricas | 8081 |
 | ai-insights-service | Python
 
-## 🧩 Serviços
-
-| Serviço | Linguagem | Função | Porta |
-|---|---|---|---|
-| order-service | Kotlin + Spring Boot | API REST de pedidos | 8080 |
-| analytics-service | Python + FastAPI | Cálculo de métricas | 8081 |
-| ai-insights-service | Python
-
 ## 📡 Endpoints principais
 
 - `POST /orders` (8080) — cria um pedido
