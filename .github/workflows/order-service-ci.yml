@@ -25,6 +25,10 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+        working-directory: ./order-service
+
       - name: Build with Gradle (skip tests)
         run: ./gradlew build -x test
         working-directory: ./order-service
